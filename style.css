@@ -1,0 +1,218 @@
+*{
+    flex-wrap: wrap;
+}
+body {
+    background-color: #ebebeb;
+}
+.top {
+    background-color: white;
+    margin: 1.3rem 20rem 1.3rem 20rem;
+    -webkit-box-shadow: 4px 3px 14px -3px rgba(0,0,0,0.12); 
+    box-shadow: 4px 3px 14px -3px rgba(0,0,0,0.12);
+    border-radius: 10px;
+    text-align: center;
+}
+.top img {
+    border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    border: 5px solid #c5c5c5;
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+}
+.top h1 {
+    color: #dd5555;
+}
+.top button {
+    background-color: rgb(230, 73, 73);
+    border-style: none;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 150px;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 15px;
+
+}
+
+
+.middle {
+    background-color: white;
+    margin: 25px 310px 30px 310px;
+    text-align: center;
+    -webkit-box-shadow: 4px 3px 14px -3px rgba(0,0,0,0.12); 
+    box-shadow: 4px 3px 14px -3px rgba(0,0,0,0.12);
+    border-radius: 10px;
+   
+}
+.middle ul {
+
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.middle li {
+    list-style-type: none;
+    margin: 30px 50px 30px 50px;
+    font-size: larger;
+    
+    
+}
+.middle a {
+    text-decoration: none;
+    color: #817a83;
+}
+
+
+
+.down {
+
+    background-color: white;
+    margin: 25px 300px 30px 300px;
+    -webkit-box-shadow: 4px 3px 14px -3px rgba(0,0,0,0.12); 
+    box-shadow: 4px 3px 14px -3px rgba(0,0,0,0.12);
+    border-radius: 10px;
+    padding-bottom: 200px;
+
+}
+.down h1,h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+.down h2 {
+    text-align: center;
+    
+
+}
+.down p {
+
+
+}
+.down img {
+    height: 200px;
+    width: 150px;
+    margin-top: 10px;
+    margin-right: 20px ;
+    margin: button 0px;
+    margin-left: 20px ;
+    float: left;
+}
+
+.second-section  p h1{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.second-section h1 {
+    
+}
+.second-section img {
+    margin-bottom: 10px;
+}
+
+.third-section h1, p {
+    margin-top: 100px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.rotate {
+    animation: rotation 8s infinite linear;
+  }
+  
+@keyframes rotation {
+from {
+      transform: rotate(0deg);
+}
+to {
+      transform: rotate(360deg);
+}
+}
+
+
+h1{
+    transition: transform 0.3s ease-in-out, color  ease-in-out;
+}
+
+ h1:hover{
+    transform: translateY(+20px);
+}
+
+h2 {
+    transition: transform 0.3s ease-in-out, color ease-in-out;
+}
+h2:hover {
+    transform: translate(-20px);
+}
+
+.top h1 {
+    transition: transform 0.3s ease-in-out, color ease-in-out;
+}
+.top h1:hover {
+    transform: translate(-40px);
+}
+
+.morph img {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+   
+.morph:hover {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
+  
+  
+.dark-mode {
+    background-color: rgb(2, 1, 12);
+    color: black
+  }
+
+.dark-mode section {
+    background-color: rgb(41, 39, 39);
+    color: white;
+  }
+
+.dark-mode div {
+    background-color: rgb(41, 39, 39);
+    color: white;
+  }
