@@ -34,17 +34,17 @@ body {
 
 .middle {
     background-color: white;
-    margin: 30px 310px 30px 310px;
+    margin: 25px 310px 30px 310px;
     text-align: center;
     -webkit-box-shadow: 4px 3px 14px -3px rgba(0,0,0,0.12); 
     box-shadow: 4px 3px 14px -3px rgba(0,0,0,0.12);
     border-radius: 10px;
-    
 }
 .middle ul {
 
     display: flex;
     justify-content: center;
+    cursor: pointer;
 
 }
 .middle li {
@@ -62,12 +62,26 @@ body {
 .down {
 
     background-color: white;
-    margin: 1.3rem 20rem 1.3rem 20rem;
+    margin: 25px 300px 30px 300px;
     -webkit-box-shadow: 4px 3px 14px -3px rgba(0,0,0,0.12); 
     box-shadow: 4px 3px 14px -3px rgba(0,0,0,0.12);
     border-radius: 10px;
 
 }
-.down h1, h2 {
+.down h1,h2 {
     text-align: center;
+    margin-top: 30px;
+}
+.down h2 {
+    text-align: center;
+
+}
+.down p {
+
+
+}
+.down img {
+    height: 200px;
+    width: 150px;
+    margin: 0px 20px 0px 30px ;
 }
