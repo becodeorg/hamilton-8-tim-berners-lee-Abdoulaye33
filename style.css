@@ -66,6 +66,7 @@ body {
     -webkit-box-shadow: 4px 3px 14px -3px rgba(0,0,0,0.12); 
     box-shadow: 4px 3px 14px -3px rgba(0,0,0,0.12);
     border-radius: 10px;
+    padding-bottom: 200px;
 
 }
 .down h1,h2 {
@@ -83,5 +84,9 @@ body {
 .down img {
     height: 200px;
     width: 150px;
-    margin: 0px 20px 0px 30px ;
+    margin-top: ;
+    margin-right: ;
+    margin-button: ;
+    margin-left: ;
+    float: left;
 }
